@@ -4,7 +4,7 @@
 
 	$(document).ready( function(){
 
-		console.log(" Page loaded ") ;
+		// console.log(" Page loaded ") ;
 
 		window.sr = ScrollReveal();
 		sr.reveal('.biography', { duration: 200 });
@@ -16,7 +16,7 @@
 
 		function goToByScroll(item){
 		    // Scroll
-		    console.info( item );
+		    // console.info( item );
 		    $('html,body').animate({ scrollTop: $("#"+item).offset().top - 50 } , 1000 );
 		}
 
@@ -31,13 +31,13 @@
 			$(this).children().toggleClass('shown').stop(0);
 		})
 
-		$('.grid').imagesLoaded( function() {
+		/*$('.grid').imagesLoaded( function() {
 		  	// images have loaded
 		  	$grid = $('.grid').isotope({
 			  // options
 			  itemSelector: '.grid-item'
 			});
-		});
+		});*/
 
 		
 		
