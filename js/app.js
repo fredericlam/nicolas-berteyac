@@ -24,22 +24,31 @@
 		    // Prevent a page reload when a link is pressed
 		    e.preventDefault(); 
 		    // Call the scroll function
-		    goToByScroll( $(this).attr('scroll') );           
+		    goToByScroll( $(this).attr('attr-scroll') );           
 		});
 
 		$('.work li').hover(function(){
 			$(this).children().toggleClass('shown').stop(0);
 		})
 
-		/*$('.grid').imagesLoaded( function() {
+		$('.grid').imagesLoaded( function() {
 		  	// images have loaded
 		  	$grid = $('.grid').isotope({
 			  // options
 			  itemSelector: '.grid-item'
 			});
-		});*/
+		});
 
-		
+		/*$(".galery a").fancybox({
+			autoDimensions: false , 
+			autoSize: false,
+			maxHeight: 150 , 
+			maxWidtth: 300 , 
+			afterShow : function( instance, current ) {
+				// $(window).trigger('resize');
+				console.info("resize");
+			}
+		});*/
 		
 	});
 

@@ -4,14 +4,14 @@
 
 <head>
 
-    <title>Nicolas Berteyac | Nicolas Berteyac, Director of photography</title>
+    <title>Nicolas Berteyac | Directeur de la photographie , chef opérateur, cadreur</title>
 
     <meta charset="utf-8" />
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Nicolas Berteyac - Directeur de la photographie, chef opérateur, cadreur">
+    <meta name="description" content="Nicolas Berteyac | Directeur de la photographie , chef opérateur, cadreur, photographe, assistant caméra">
     <meta name="category" content="directeur photo, photographie, cinema, cam&eacute;ra, photographies, chef op&eacute;rateur, cadreur, cadre"/>
-    <meta name="keywords" lang="fr" content="directeur photo, photographie, ccin&eacute;ma, cam&eacute;ra, photographies, chef op&eacute;rateur, cadreur, cadre"/>
+    <meta name="keywords" lang="fr" content="directeur photo, directeur photographie, directeur de la photographie cinéma, cinema, ccin&eacute;ma, cam&eacute;ra, chef opérateur, chef op&eacute;rateur, cadreur, cadre, paris, lyon, film, sony, canon, mark, short"/>
     <meta name="author" content="Frédéric LAM"/>
     <meta name="Copyright" content="Nicolas Berteyac"/>
     <meta name="language" content="French"/>
@@ -23,9 +23,12 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script src="https://unpkg.com/isotope-layout@3.0.2/dist/isotope.pkgd.js"></script>
     <script src="https://unpkg.com/imagesloaded@4.1/imagesloaded.pkgd.js"></script>
+    <script src="js/libs/jquery.fancybox.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fancybox.css" />
+
 </head>
 
 <div class="iw-preloader">
@@ -41,12 +44,12 @@
 
             <nav>
               <ul id="menu">
-                <!--<li><a href="#biography" scroll="biography">Biographie</a></li>-->
-                <li><a href="#showreel" scroll="showreel">Showreel</a></li>
-                <li><a href="#work" scroll="work">Work</a></li>
-                <li><a href="#resume" scroll="resume">CV</a></li>
-                <li><a href="#photos" scroll="photos">Photos</a></li>
-                <li><a href="#contact" scroll="contact">Contact</a></li>
+
+                <li><a href="#showreel" attr-scroll="showreel">Showreel</a></li>
+                <li><a href="#work" attr-scroll="work">Work</a></li>
+                <li><a href="#resume" attr-scroll="resume">CV</a></li>
+                <li><a href="#photos" attr-scroll="photos">Photos</a></li>
+                <li><a href="#contact" attr-scroll="contact">Contact</a></li>
               </ul>
               
             </nav>
@@ -71,7 +74,7 @@
             <section class="work" id="work">
                 <h2>Work</h2>
                 <ul class="work">
-                    <li><img src="images/mpcha.jpg">
+                    <li><img src="images/mpcha.jpg" alt="Ma plus courte histoire d'amour">
                         <div class="mask">
                             <a href="http://www.imdb.com/name/nm0016900/" target="_blank">
                             <h3 style="font-size:11px; line-height: 14px; ">MA PLUS COURTE HISTOIRE D'AMOUR</h3>
@@ -80,28 +83,28 @@
                             <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
                         </div>
                     </li>
-                    <li><img src="images/la-signature.jpg">
+                    <li><img src="images/la-signature.jpg" align="La Signature">
                         <div class="mask">
                             <h3>LA SIGNATURE</h3>
                             <span>Short Film</span>
                             <span> by Steed CAVALIERI</span>
                         </div>
                     </li>
-                    <li><img src="images/entends-moi.jpg">
+                    <li><img src="images/entends-moi.jpg" align="Entends-moi">
                         <div class="mask">
                             <h3>ENTENDS MOI</h3>
                             <span>Short Film</span>
                             <span>by Nicolas COQUET</span>
                         </div>
                     </li>
-                    <li><img src="images/idylle.jpg">
+                    <li><img src="images/idylle.jpg" align="Idylle">
                         <div class="mask">
                             <h3>IDYLLE</h3>
                             <span>Music Video</span>
                             <span>Faraby</span>
                         </div>
                     </li>
-                    <li><img src="images/123.jpg">
+                    <li><img src="images/123.jpg" align="123">
                         <div class="mask">
                             <a href="https://vimeo.com/78408319" target="_blank">
                             <h3>1X2=3</h3>
@@ -110,21 +113,21 @@
                             <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
                         </div>
                     </li>
-                    <li><img src="images/live.jpg">
+                    <li><img src="images/live.jpg" align="Live station">
                         <div class="mask">
                             <h3>LIVE STATION</h3>
                             <span>TV Pilot</span>
                             <span>by Ingrid Franchi</span>
                         </div>
                     </li>
-                    <li><img src="images/septembre.jpg">
+                    <li><img src="images/septembre.jpg" align="Septembre">
                         <div class="mask">
                             <h3>SEPTEMBRE A LARMES</h3>
                             <span>Short Film</span>
                             <span>by Jacques Lacaze</span>
                         </div>
                     </li>
-                    <li><img src="images/reves_denfants.jpg">
+                    <li><img src="images/reves_denfants.jpg" align="Rêves d'enfants">
                         <div class="mask">
                              <a href="https://player.vimeo.com/video/52718204?title=0&byline=0&portrait=0&color=7f8182" target="_blank">
                             <h3>REVES D'ENFANT</h3>
@@ -133,7 +136,7 @@
                            <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
                         </div>
                     </li>
-                    <li><img src="images/roure.jpg">
+                    <li><img src="images/roure.jpg" align="Roure">
                         <div class="mask">
                             <a href="https://vimeo.com/43032002" target="_blank">
                             <h3>ROURE</h3>
@@ -142,7 +145,7 @@
                             <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
                         </div>
                     </li>
-                    <li><img src="images/ohmygod.jpg">
+                    <li><img src="images/ohmygod.jpg" align="Oh my god">
                         <div class="mask">
                             <a href="https://www.youtube.com/watch?v=0l9p9Dfs0LI" target="_blank">
                             <h3>OH MY GOD</h3>
@@ -151,7 +154,7 @@
                             <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
                         </div>
                     </li>
-                    <li><img src="images/ondisquoi.jpg">
+                    <li><img src="images/ondisquoi.jpg" align="On dis quoi gros">
                         <div class="mask">
                             <a href="https://vimeo.com/28712014" target="_blank">
                             <h3>ON DIS QUOI GROS</h3>
@@ -160,14 +163,14 @@
                             <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
                         </div>
                     </li>
-                    <li><img src="images/2012.jpg">
+                    <li><img src="images/2012.jpg" align="2012">
                         <div class="mask">
                             <h3>2012</h3>
                             <span>Music Video</span>
                             <span>Sultan</span>
                         </div>
                     </li>
-                    <li><img src="images/cina.jpg">
+                    <li><img src="images/cina.jpg" align="Cina">
                         <div class="mask">
                             <a href="https://vimeo.com/180864329" target="_blank">
                             <h3>CINA</h3>
@@ -176,7 +179,7 @@
                             <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
                         </div>
                     </li>
-                    <li><img src="images/album.jpg">
+                    <li><img src="images/album.jpg" align="L'album">
                         <div class="mask">
                             <a href="https://vimeo.com/50984697" target="_blank">
                             <h3>L'ALBUM</h3>
@@ -185,7 +188,7 @@
                             <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
                         </div>
                     </li>
-                    <li><img src="images/1967.jpg">
+                    <li><img src="images/1967.jpg" align="1967">
                         <div class="mask">
                             <a href="https://vimeo.com/11458930" target="_blank">
                             <h3>1967</h3>
@@ -194,7 +197,7 @@
                             <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
                         </div>
                     </li>
-                    <li><img src="images/tournant.jpg">
+                    <li><img src="images/tournant.jpg" align="Le tournant">
                         <div class="mask">
                             <a href="https://vimeo.com/26261070" target="_blank">
                             <h3>LE TOURNANT</h3>
@@ -210,10 +213,10 @@
                 <h2>Resume</h2>
                 <table width="100%">
                     <thead>
-                        <th>Name</td>
-                        <th>Director</td>
-                        <th>Shot on</td>
-                        <th>Production</td>
+                        <th>Name</th>
+                        <th>Director</th>
+                        <th>Shot on</th>
+                        <th>Production</th>
                         <th align="right">Year</th>
                     </thead>
                     <tr>
@@ -226,6 +229,7 @@
                         <td>Karel</td>
                         <td align="right">2015</td>
                     </tr>
+                    <tr>
                     <td colspan="5" class="group">COMMERCIAL</td>
                     </tr>
                     <tr>
@@ -503,119 +507,101 @@
 
             <section class="photos" id="photos">
                 <h2>Photos</h2>
-                <!--<ul class="filter">
-                    <li><a href="javascript:void(0)" onclick="filter('*')">All</a> -</li>
-                    <li><a href="javascript:void(0)" onclick="filter('.myanmar')">Myanmar</a> -</li></li>
-                    <li><li><a href="javascript:void(0)" onclick="filter('.portraits')">Portraits</a> -</li>
-                    <li><a href="javascript:void(0)" onclick="filter('.tunisie')">Tunisie</a> -</li>
-                    <li><a href="javascript:void(0)" onclick="filter('.mexique')">Mexique</a></li>
-                </ul>
-                <div class="grid">
-                  <div class="grid-item myanmar"><div class="cell"><img src="galery/myanmar/2014-BIRMANIE_1.jpg"></div></div>
-                  <div class="grid-item grid-item-width2 myanmar"><div class="cell"><img src="galery/myanmar/2014-BIRMANIE-3.jpg"></div></div>
-                  <div class="grid-item myanmar"><div class="cell"><img src="galery/myanmar/myanmar-1.jpg"></div></div>
-                  <div class="grid-item myanmar"><div class="cell"><img src="galery/myanmar/myanmar-3.jpg"></div></div>
-                  <div class="grid-item myanmar"><div class="cell"><img src="galery/myanmar/myanmar-4.jpg"></div></div>
-                  <div class="grid-item grid-item-width2 myanmar"><div class="cell"><img src="galery/myanmar/myanmar-5.jpg"></div></div>
-                  <div class="grid-item myanmar"><div class="cell"><img src="galery/myanmar/myanmar-6.jpg"></div></div>
-                  <div class="grid-item myanmar"><div class="cell"><img src="galery/myanmar/myanmar-7.jpg"></div></div>
-                  <div class="grid-item grid-item-width2 myanmar"><div class="cell"><img src="galery/myanmar/myanmar-8.jpg"></div></div>
-                  <div class="grid-item myanmar"><div class="cell"><img src="galery/myanmar/myanmar-9.jpg"></div></div>
-                  <div class="grid-item myanmar"><div class="cell"><img src="galery/myanmar/myanmar-10.jpg"></div></div>
-                  <div class="grid-item portraits"><div class="cell"><img src="galery/portraits/bernard.jpg"></div></div>
-                  <div class="grid-item portraits"><div class="cell"><img src="galery/portraits/bojana.jpg"></div></div>
-                  <div class="grid-item portraits"><div class="cell"><img src="galery/portraits/léa_1.jpg"></div></div>
-                  <div class="grid-item portraits"><div class="cell"><img src="galery/portraits/nicolas bouchu.jpg"></div></div>
-                  <div class="grid-item portraits"><div class="cell"><img src="galery/portraits/sarah_3.jpg"></div></div>
-                  <div class="grid-item portraits"><div class="cell"><img src="galery/portraits/virginie_1.jpg"></div></div>
-                  <div class="grid-item portraits"><div class="cell"><img src="galery/portraits/virginie_4.jpg"></div></div>
-                  <div class="grid-item tunisie"><div class="cell"><img src="galery/tunisie/tunisie_1.jpg"></div></div>
-                  <div class="grid-item tunisie"><div class="cell"><img src="galery/tunisie/tunisie_2.jpg"></div></div>
-                  <div class="grid-item tunisie"><div class="cell"><img src="galery/tunisie/tunisie_5.jpg"></div></div>
-                  <div class="grid-item tunisie"><div class="cell"><img src="galery/tunisie/tunisie_7.jpg"></div></div>
-                  <div class="grid-item tunisie"><div class="cell"><img src="galery/tunisie/tunisie_12.jpg"></div></div>
-                  <div class="grid-item tunisie"><div class="cell"><img src="galery/tunisie/tunisie_14.jpg"></div></div>
-                  <div class="grid-item tunisie"><div class="cell"><img src="galery/tunisie/tunisie_66.jpg"></div></div>
-                  <div class="grid-item tunisie"><div class="cell"><img src="galery/tunisie/tunisie_10.jpg"></div></div>
-                  <div class="grid-item mexique"><div class="cell"><img src="galery/mexique/mexique_accapulco.jpg"></div></div>
-                  <div class="grid-item mexique"><div class="cell"><img src="galery/mexique/mexique_arbre.jpg"></div></div>
-                  <div class="grid-item mexique"><div class="cell"><img src="galery/mexique/mexique_bateau.jpg"></div></div>
-                  <div class="grid-item mexique"><div class="cell"><img src="galery/mexique/mexique_ganajuato.jpg"></div></div>
-                  <div class="grid-item grid-item-width2 mexique"><div class="cell"><img src="galery/mexique/mexique_mais.jpg"></div></div>
-                  <div class="grid-item mexique"><div class="cell"><img src="galery/mexique/mexique_marche.jpg"></div></div>
-                  <div class="grid-item mexique"><div class="cell"><img src="galery/mexique/mexique_plage.jpg"></div></div>
-                  <div class="grid-item mexique"><div class="cell"><img src="galery/mexique/mexique_plante.jpg"></div></div>
-                  <div class="grid-item mexique"><div class="cell"><img src="galery/mexique/mexique_soleil.jpg"></div></div>
-                  <div class="grid-item mexique"><div class="cell"><img src="galery/mexique/mexique_voiture.jpg"></div></div>
-                  <div class="grid-item grid-item-width2 mexique"><div class="cell"><img src="galery/mexique/mexique_vw.jpg"></div></div>
-
-                </div>-->
-
+              
                 <h3>Myanmar</h3>
                 <ul class="galery">
-                    <li><img src="galery/myanmar/2014-BIRMANIE_1.jpg"></li>
-                    <li><img src="galery/myanmar/2014-BIRMANIE-3.jpg"></li>
-                    <li><img src="galery/myanmar/myanmar-1.jpg"></li>
-                    <li><img src="galery/myanmar/myanmar-3.jpg"></li>
-                    <li><img src="galery/myanmar/myanmar-4.jpg"></li>
-                    <li><img src="galery/myanmar/myanmar-5.jpg"></li>
-                    <li><img src="galery/myanmar/myanmar-6.jpg"></li>
-                    <li><img src="galery/myanmar/myanmar-7.jpg"></li>
-                    <li><img src="galery/myanmar/myanmar-8.jpg"></li>
-                    <li><img src="galery/myanmar/myanmar-9.jpg"></li>
-                    <li><img src="galery/myanmar/myanmar-10.jpg"></li>
+                    <li><a data-fancybox="Myanmar" href="galery/myanmar/2014-BIRMANIE-3-HD.jpg"><img src="galery/myanmar/thumbs/2014-BIRMANIE-3-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-1-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-1-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-3-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-3-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-4-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-4-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-5-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-5-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-6-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-6-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-7-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-7-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-8-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-8-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-9-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-9-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-10-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-10-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-11-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-11-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-12-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-12-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-13-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-13-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-14-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-14-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-15-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-15-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-16-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-16-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-17-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-17-thumbs.jpg"></a></li>
+                    <li><a href="galery/myanmar/myanmar-18-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-18-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-19-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-19-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-20-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-20-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-21-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-21-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-22-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-22-thumbs.jpg" alt="Myanmar"></a></li>
+                    <li><a href="galery/myanmar/myanmar-23-HD.jpg" data-fancybox="Myanmar"><img src="galery/myanmar/thumbs/myanmar-23-thumbs.jpg" alt="Myanmar"></a></li>
                 </ul>
                 <h3>Tunisie</h3>
                 <ul class="galery">
-                    <li><img src="galery/tunisie/tunisie_1.jpg"></li>
-                    <li><img src="galery/tunisie/tunisie_5.jpg"></li>
-                    <li><img src="galery/tunisie/tunisie_7.jpg"></li>
-                    <li><img src="galery/tunisie/tunisie_12.jpg"></li>
-                    <li><img src="galery/tunisie/tunisie_14.jpg"></li>
-                    <li><img src="galery/tunisie/tunisie_66.jpg"></li>
-                    <li><img src="galery/tunisie/tunisie_10.jpg"></li>
+                    <li><a href="galery/tunisie/tunisie_1-HD.jpg" data-fancybox="Tunisie"><img src="galery/tunisie/thumbs/tunisie_1-thumbs.jpg" align="Tunisie"></a></li>
+                    <li><a href="galery/tunisie/tunisie_5-HD.jpg" data-fancybox="Tunisie"><img src="galery/tunisie/thumbs/tunisie_5-thumbs.jpg" align="Tunisie"></a></li>
+                    <li><a href="galery/tunisie/tunisie_7-HD.jpg" data-fancybox="Tunisie"><img src="galery/tunisie/thumbs/tunisie_7-thumbs.jpg" align="Tunisie"></a></li>
+                    <li><a href="galery/tunisie/tunisie_12-HD.jpg" data-fancybox="Tunisie"><img src="galery/tunisie/thumbs/tunisie_12-thumbs.jpg" align="Tunisie"></a></li>
+                    <li><a href="galery/tunisie/tunisie_14-HD.jpg" data-fancybox="Tunisie"><img src="galery/tunisie/thumbs/tunisie_14-thumbs.jpg" align="Tunisie"></a></li>
+                    <li><a href="galery/tunisie/tunisie_66-HD.jpg" data-fancybox="Tunisie"><img src="galery/tunisie/thumbs/tunisie_66-thumbs.jpg" align="Tunisie"></a></li>
+                    <li><a href="galery/tunisie/tunisie_10-HD.jpg" data-fancybox="Tunisie"><img src="galery/tunisie/thumbs/tunisie_10-thumbs.jpg" align="Tunisie"></a></li>
                 </ul>
 
                 <h3>Mexique</h3>
                 <ul class="galery">
-                    <li><img src="galery/mexique/mexique_accapulco.jpg"></li>
-                    <li><img src="galery/mexique/mexique_arbre.jpg"></li>
-                    <li><img src="galery/mexique/mexique_bateau.jpg"></li>
-                    <li><img src="galery/mexique/mexique_fleur.jpg"></li>
-                    <li><img src="galery/mexique/mexique_ganajuato.jpg"></li>
-                    <li><img src="galery/mexique/mexique_mais.jpg"></li>
-                    <li><img src="galery/mexique/mexique_marche.jpg"></li>
-                    <li><img src="galery/mexique/mexique_palmier.jpg"></li>
-                    <li><img src="galery/mexique/mexique_plage.jpg"></li>
-                    <li><img src="galery/mexique/mexique_plante.jpg"></li>
-                    <li><img src="galery/mexique/mexique_ruesan.jpg"></li>
-                    <li><img src="galery/mexique/mexique_san.jpg"></li>
-                    <li><img src="galery/mexique/mexique_soleil.jpg"></li>
-                    <li><img src="galery/mexique/mexique_voiture.jpg"></li>
-                    <li><img src="galery/mexique/mexique_vw.jpg"></li>
+                    <li><a href="galery/mexique/mexique_accapulco-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_accapulco-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_arbre-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_arbre-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_bateau-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_bateau-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_fleur-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_fleur-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_ganajuato-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_ganajuato-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_mais-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_mais-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_marche-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_marche-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_palmier-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_palmier-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_plante-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_plante-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_ruesan-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_ruesan-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_san-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_san-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_soleil-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_soleil-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_voiture-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_voiture-thumbs.jpg" align="Mexique"></a></li>
+                    <li><a href="galery/mexique/mexique_vw-HD.jpg" data-fancybox="Mexique"><img src="galery/mexique/thumbs/mexique_vw-thumbs.jpg" align="Mexique"></a></li>
                 </ul>
+                
                 <h3>Marseille</h3>
                 <ul class="galery">
-                    <li><img src="galery/marseille/2012_MARSEILLE_1.jpg"></li>
-                    <li><img src="galery/marseille/2012_MARSEILLE_2.jpg"></li>
-                    <li><img src="galery/marseille/2012_MARSEILLE_3.jpg"></li>
-                    <li><img src="galery/marseille/2012_MARSEILLE_4.jpg"></li>
-                    <li><img src="galery/marseille/2012_MARSEILLE_5.jpg"></li>
+                    <li><a href="galery/marseille/2012_MARSEILLE_1-HD.jpg" data-fancybox="Marseille"><img src="galery/marseille/thumbs/2012_MARSEILLE_1-thumbs.jpg" align="Marseille"></a></li>
+                    <li><a href="galery/marseille/2012_MARSEILLE_2-HD.jpg" data-fancybox="Marseille"><img src="galery/marseille/thumbs/2012_MARSEILLE_2-thumbs.jpg" align="Marseille"></a></li>
+                    <li><a href="galery/marseille/2012_MARSEILLE_3-HD.jpg" data-fancybox="Marseille"><img src="galery/marseille/thumbs/2012_MARSEILLE_3-thumbs.jpg" align="Marseille"></a></li>
+                    <li><a href="galery/marseille/2012_MARSEILLE_4-HD.jpg" data-fancybox="Marseille"><img src="galery/marseille/thumbs/2012_MARSEILLE_4-thumbs.jpg" align="Marseille"></a></li>
+                    <li><a href="galery/marseille/2012_MARSEILLE_5-HD.jpg" data-fancybox="Marseille"><img src="galery/marseille/thumbs/2012_MARSEILLE_5-thumbs.jpg" align="Marseille"></a></li>
+                </ul>
+
+                <h3>Photos de plateau</h3>
+                <ul class="galery">
+                    <li><a href="galery/plateau/2012- MPCHA-2-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/2012- MPCHA-2-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/2012- MPCHA-3-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/2012- MPCHA-3-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/2012- MPCHA-4-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/2012- MPCHA-4-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/IMG_0055-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/IMG_0055-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/IMG_4221-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/IMG_4221-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/IMG_4448_bis-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/IMG_4448_bis-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/IMG_4708-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/IMG_4708-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/IMG_6361-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/IMG_6361-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/IMG_6564-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/IMG_6564-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/IMG_6803-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/IMG_6803-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/IMG_6832-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/IMG_6832-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/IMG_6877-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/IMG_6877-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/IMG_8147-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/IMG_8147-thumbs.jpg" align="Photos de plateau"></a></li>
+                    <li><a href="galery/plateau/IMG_9472-HD.jpg" data-fancybox="Plateau"><img src="galery/plateau/thumbs/IMG_9472-thumbs.jpg" align="Photos de plateau"></a></li>
                 </ul>
 
                 <h3>Divers</h3>
                 <ul class="galery">
-                    <li><img src="galery/divers/anita1.jpg"></li>
-                    <li><img src="galery/divers/egypte_1.jpg"></li>
-                    <li><img src="galery/divers/egypte_2.jpg"></li>
-                    <li><img src="galery/divers/landscape.jpg"></li>
-                    <li><img src="galery/divers/montreal_1.jpg"></li>
-                    <li><img src="galery/divers/montreal_2.jpg"></li>
-                    <li><img src="galery/divers/montreal_3.jpg"></li>
-                    <li><img src="galery/divers/ny1.jpg"></li>
-                    <li><img src="galery/divers/ny3.jpg"></li>
-                    <li><img src="galery/divers/ny4.jpg"></li>
-                    <li><img src="galery/divers/ny5.jpg"></li>
+                    <li><a href="galery/divers/anita1-HD.jpg" data-fancybox="Divers"><img src="galery/divers/thumbs/anita1-thumbs.jpg" align="Anita"></a></li>
+                    <li><a href="galery/divers/egypte-1-HD.jpg" data-fancybox="Divers"><img src="galery/divers/thumbs/egypte-1-thumbs.jpg" align="Egypte"></a></li>
+                    <li><a href="galery/divers/egypte-2-HD.jpg" data-fancybox="Divers"><img src="galery/divers/thumbs/egypte-2-thumbs.jpg" align="Egypte"></a></li>
+                    <li><a href="galery/divers/landscape-HD.jpg" data-fancybox="Divers"><img src="galery/divers/thumbs/landscape-thumbs.jpg" align="Landscape"></a></li>
+                    <li><a href="galery/divers/montreal_1-HD.jpg" data-fancybox="Divers"><img src="galery/divers/thumbs/montreal_1-thumbs.jpg" align="Montreal"></a></li>
+                    <li><a href="galery/divers/montreal_2-HD.jpg" data-fancybox="Divers"><img src="galery/divers/thumbs/montreal_2-thumbs.jpg" align="Montreal"></a></li>
+                    <li><a href="galery/divers/montreal_3-HD.jpg" data-fancybox="Divers"><img src="galery/divers/thumbs/montreal_3-thumbs.jpg" align="Montreal"></a></li>
+                    <li><a href="galery/divers/ny-1-HD.jpg" data-fancybox="Divers"><img src="galery/divers/thumbs/ny-1-thumbs.jpg" align="New york"></a></li>
+                    <li><a href="galery/divers/ny-3-HD.jpg" data-fancybox="Divers"><img src="galery/divers/thumbs/ny-3-thumbs.jpg" align="New york"></a></li>
+                    <li><a href="galery/divers/ny-4-HD.jpg" data-fancybox="Divers"><img src="galery/divers/thumbs/ny-4-thumbs.jpg" align="New york"></a></li>
                 </ul>
 
             </section>
@@ -626,6 +612,7 @@
                     <li><a href="tel:+33(0)680540356" target="_blank"><i class="fa fa-phone-square" aria-hidden="true"></i> +33(0)6 80 54 03 56</a></li>
                     <li><a href="mailto:nicolas.berteyac@gmail.com" target="_blank"><i class="fa fa-envelope-open" aria-hidden="true"></i> nicolas.berteyac@gmail.com</a></li>
                     <li><a href="http://www.imdb.fr/name/nm2952837/" target="_blank"><i class="fa fa-imdb" aria-hidden="true"></i> http://www.imdb.fr/name/nm2952837/</a></li>
+                    <li><a href="http://www.instagram.com/berteyac" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> http://www.instagram.com/berteyac</a></li>
                     <li><a href="https://www.facebook.com/nicolas.berteyac" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i> https://www.facebook.com/nicolas.berteyac </a></li>
                     <li><a href="data/nicolas.vcf" target="_blank"><i class="fa fa-id-card" aria-hidden="true"></i> vcard</a></li>
               </ul>
