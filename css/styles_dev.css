@@ -109,7 +109,7 @@ ul#social li span.ico{
 
 
 .page-content{
-    margin-top: 70px ; 
+    margin-top: 10px ; 
 }
 
 h1,
@@ -224,6 +224,7 @@ ul.work li{
     margin: 0 9px 9px 0 ;
     position: relative;
     overflow: hidden ; 
+    height: 115px;
 }
 
 ul.work li img{
@@ -251,24 +252,63 @@ ul.work li div.mask.shown{
 ul.work li div.mask h3{
     text-transform: uppercase;
     font-weight: 700 ; 
+    margin-bottom: 0px;
 }
 
 ul.work li div.mask h3,ul.work li div.mask span,ul.work li div.mask a{
     color: #fff ; 
-    text-align: center ; 
+    text-align: left ; 
     display: block;
     width: 100% ; 
+    padding-left: 10px;
 }
 
-,ul.work li div.mask a i{
+ul.work li div.mask a i{
     color: #fff ; 
-    font-size: 13px; 
+    font-size: 3em; 
+    display: block ; 
+    position: absolute ; 
+    right: 20px ; 
+    bottom: 20px ; 
+}
+
+ul.work li h3{
+    font-size: 1.2em; 
+    line-height: 14px; 
+    font-weight: 700 ; 
+    padding-top: 5px;
+    color: #ccc ; 
 }
 
 ul.work li div.mask span{
-    font-size: 10px ; 
-    line-height: 9px ; 
+    font-size: 1em ; 
     height: 15px;
+    font-weight: 500 ; 
+    color: #ccc ; 
+}
+
+ul.work li a[href="javascript:void(0)"]{
+    cursor: default ; 
+}
+
+ul.work li span.wip{
+    position: absolute;
+    background: #ccc;
+    color: #000;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding: 3px;
+    bottom: 35px;
+    right: -200px;
+    opacity: 0.5;
+    z-index: 9999999;
+    transition: all 0.2s ease-in-out;
+    transform: rotate(-45deg);
+}
+
+ul.work li span.wip.shown{
+    right: -55px ; 
 }
 
 ul.galery li{
@@ -398,5 +438,3 @@ footer p{
   .grid-item { width: 100%; }
   .grid-item-width2 { width: 100%; }
 }
-
-/*# sourceMappingURL=styles.css.map*/

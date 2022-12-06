@@ -1,0 +1,159 @@
+{
+	"work" : [
+		{
+			"category" : "FICTION" ,
+			"name" : "LUCIOLLES" , 
+			"work_in_progress" : true ,
+			"title" : "Short film" ,
+			"by" : "by LUCIE PAGES" ,
+			"prod" : "Plus de prod",
+			"pic" : "images/2019-LUCIOLLE.jpg"
+		}, 
+		{
+			"category" : "FICTION" ,
+			"name" : "LES POUX" ,
+			"work_in_progress" : true ,
+			"title" : "Short film" ,
+			"by" : "by MARC LAHORE" ,
+			"prod" : "Plus de prod" ,
+			"pic" : "images/2019-POUX.jpg"
+		},
+		{
+			"category" : "FICTION" ,
+			"name" : "SOMBRES COULEURS" ,
+			"work_in_progress" : true ,
+			"title" : "Short film" ,
+			"by" : "by OPHELIE GALANT" ,
+			"prod" : "Evil Ways" ,
+			"pic" : "images/2019-SOMBRE-COULEURS.jpg"
+		},
+		{
+			"category" : "FICTION" ,
+			"name" : "LE TRAVAIL DU CASTOR" ,
+			"work in progress" : true ,
+			"title" : "Short film" ,
+			"by" : "by STEED CAVALIERI" ,
+			"prod" : "La Luna Production" ,
+			"extra" : "BEST CINEMATOGRAPHY SULMONA INTERNATIONAL FILM FEST 2019",
+			"pic" : "images/2018-CASTOR.jpg"
+		},
+		{
+			"category" : "FICTION" ,
+			"name" : "MISS CHAZELLES" ,
+			"title" : "Short film" ,
+			"by" : "by THOMAS VERNAY" ,
+			"prod" : "Cumulus " ,
+			"url" : "https://vimeo.com/302809194?ref=em-share" ,
+			"pic" : "images/miss-chazelles.png" 
+		},
+		{
+			"category" : "FICTION" ,
+			"name" : "MA PLUS COURTE HISTOIRE D'AMOUR" ,
+			"title": "Feature film" ,
+			"by" : "by KARIN ALBOU" ,
+			"url" : "http://www.imdb.com/name/nm0016900/" ,
+			"pic" : "images/mpcha.jpg" 
+		},
+		{
+			"category" : "FICTION" ,
+			"name" : "LA SIGNATURE" ,
+			"title" : "Short film" ,
+			"by" : "by STEED CAVALIERI" ,
+			"prod" : "One Cut" ,
+			"pic" : "images/la-signature.jpg"
+		},
+		{
+			"category" : "FICTION" ,
+			"name" : "ENTENDS MOI" ,
+			"title" : "Short Film" ,
+			"by" : "by NICOLAS COQUET" ,
+			"prod" : "Koklico" ,
+			"url" : "https://vimeo.com/koklico/download/148145697/37e572bf1d" ,
+			"pic" : "images/entends-moi.jpg"
+		},
+		{
+			"category" : "FICTION" ,
+			"name" : "LIVE STATION" ,
+			"title" : "TV Pilot" ,
+			"by" : "by INGRID FRANCHI" ,
+			"pic" : "images/live.jpg" 
+		},
+		{
+			"category" : "FICTION" ,
+			"name" : "SEPTEMBRE A LARMES" ,
+			"title" : "Short Film" ,
+			"by" : "by JACQUES LACAZE" ,
+			"pic" : "images/septembre.jpg"
+		},
+		{
+			"category" : "COMMERCIAL" ,
+			"name" : "REVE DE CINEMA" ,
+			"by" : "by JEREMY FREY" ,
+			"title" : "Fulldawa" ,
+			"url" : "https://www.revedecinema.com" ,
+			"pic" : "images/reve-de-cine.jpg"
+		},
+		{
+			"category" : "COMMERCIAL" ,
+			"name" : "RAS CAFE" ,
+			"by" : "by MANU COEMAN" ,
+			"prod" : "Dilo Tv" ,
+			"url" : "https://vimeo.com/369772893" ,
+			"pic" : "images/2019 RAS-cafe.jpg" 
+		},
+		{
+			"category" : "COMMERCIAL" ,
+			"name" : "RAS JARDIN" ,
+			"by" : "by MANU COEMAN" ,
+			"prod" : "Dilo Tv" ,
+			"url" : "https://vimeo.com/369772997" ,
+			"pic" : "images/2019 RAS-jardin.jpg" 
+		},
+		{
+			"category" : "COMMERCIAL" ,
+			"name" : "GRAND BAINS" ,
+			"by" : "by EMILE & FLORIENT" ,
+			"prod" : "Dilo Tv" ,
+			"url" : "https://vimeo.com/350928709" ,
+			"pic" : "images/grandbain.jpg" 
+		},
+		{
+			"category" : "COMMERCIAL" ,
+			"name" : "HANDICAP INTERNATIONAL" ,
+			"by" : "" ,
+			"prod" : "Plus de prod" ,
+			"url" : "https://youtu.be/51SiVAfBcxU" ,
+			"pic" : "images/2019-sacsapin.jpg" 
+		},
+		{
+			"category" : "MUSIC VIDEO" ,
+			"name" : "RUNNING HERD" ,
+			"by" : "by ARTHUR MOODY" ,
+			"title" : "Music Video" ,
+			"url" : "https://vimeo.com/253135231" ,
+			"pic" : "images/running-herd.jpg" 
+		},
+		{
+			"category" : "MUSIC VIDEO" ,
+			"name" : "CONTRAILS" ,
+			"by" : "by THOMAS VERNAY" ,
+			"title" : "Music Video" ,
+			"prod" : "Cumulus",
+			"url" : "https://www.youtube.com/watch?v=YyeQqYEXiA8" ,
+			"pic" : "images/contrails.jpg" 
+		},
+		{
+			"category" : "MUSIC VIDEO" ,
+			"name" : "1X2=3" ,
+			"by" : "LISA FUCHS" ,
+			"title" : "Short Film" ,
+			"url" : "https://vimeo.com/78408319" ,
+			"pic" : "images/123.jpg" 
+		}
+
+	]
+}
+
+
+
+
